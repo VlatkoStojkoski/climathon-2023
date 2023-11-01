@@ -10,3 +10,15 @@
   color: #59b73a;
   background-color: #223324;
 }
+
+.next-button {
+  color: #59b73a;
+}
+
+.page-dot {
+  background-color: #59b73a;
+}
+
+.page-dot-active {
+  background-color: #223324;
+}

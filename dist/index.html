@@ -1,25 +1,59 @@
+<!--
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Climathon 2023</title>
-    <link href="/dist/assets/styles.css" rel="stylesheet" />
+    <link href="/assets/styles.css" rel="stylesheet" />
   </head>
 
   <body>
     <div class="container w-screen h-screen">
       <div
-        class="h-full w-10/12 flex flex-col justify-between m-auto text-center text-white py-16"
+        class="h-full w-10/12 flex flex-col justify-between mx-auto text-center text-white py-16"
       >
-        <h1 class="text-3xl pb-7">Welcome to Natumental</h1>
-        <p class="w-6/12 mx-auto text-sm">
-          Ride green, breathe clean; Choose bus and bike, fight air pollution!
-        </p>
-        <img class="w-8/12 h-8/12 m-auto" src="logo.svg" alt="Logo" />
-        <button class="start-button p-5 drop-shadow-lg">
-          Let's get started
-        </button>
+        <div>
+          <h1 class="text-3xl pb-7">Welcome to Natumental</h1>
+          <p class="w-6/12 mx-auto text-sm">
+            Ride green, breathe clean; Choose bus and bike, fight air pollution!
+          </p>
+        </div>
+        <img class="w-8/12 h-8/12 mx-auto" src="logo.svg" alt="Logo" />
+        <button class="start-button rounded-lg p-5">Let's get started</button>
+      </div>
+    </div>
+  </body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climathon 2023</title>
+    <link href="/assets/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container w-screen h-screen">
+      <div
+        class="h-full w-10/12 mx-auto flex flex-col justify-between text-center text-white py-20"
+      >
+        <div class="flex justify-center gap-3">
+          <div class="page-dot w-3 h-3 rounded-full"></div>
+          <div class="page-dot page-dot-active w-3 h-3 rounded-full"></div>
+          <div class="page-dot w-3 h-3 rounded-full"></div>
+        </div>
+        <div>
+          <img class="w-8/12 h-8/12 mx-auto" src="start1_img.svg" alt="Logo" />
+          <h1 class="text-3xl pb-7">Welcome to Natumental</h1>
+          <p class="w-6/12 mx-auto text-sm">
+            Ride green, breathe clean; Choose bus and bike, fight air pollution!
+          </p>
+        </div>
+        <button class="next-button">Next&rarr;</button>
       </div>
     </div>
   </body>
