@@ -4,5 +4,8 @@
 	},
 	"devDependencies": {
 		"tailwindcss": "^3.3.5"
+	},
+	"dependencies": {
+		"geist": "^1.0.0"
 	}
 }
