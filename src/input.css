@@ -1,24 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.container {
-  background-color: #101618;
-}
-
-.start-button {
-  color: #59b73a;
-  background-color: #223324;
-}
-
-.next-button {
-  color: #59b73a;
-}
-
-.page-dot {
-  background-color: #59b73a;
-}
-
-.page-dot-active {
-  background-color: #223324;
-}
