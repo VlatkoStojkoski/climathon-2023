@@ -20,18 +20,29 @@
     ></iframe>
 
     <div
-      class="absolute top-0 left-0 w-full h-[30%] bg-background-primary rounded-b-2xl"
+      class="flex flex-col items-center gap-6 absolute top-0 left-0 w-full h-[35%] bg-background-primary rounded-b-2xl py-8"
     >
-      <input
-        type="text"
-        class="border border-b-accent p-2 rounded-md hover:bg-blue-100 focus:outline-none focus:border-blue-700"
-        placeholder="Input 1"
-      />
-      <input
-        type="text"
-        class="border border-blue-500 p-2 rounded-md hover:bg-blue-100 focus:outline-none focus:border-blue-700"
-        placeholder="Input 2"
-      />
+      <div class="flex gap-2">
+        <img src="/assets/img/yourLocation.svg" alt="YourLocationPin" />
+        <input
+          type="text"
+          class="bg-background-primary border border-accent p-2 rounded-md text-base"
+          placeholder="Your Location"
+        />
+      </div>
+
+      <div class="flex items-center gap-2">
+        <img src="/assets/img/dots.svg" alt="dots">
+      </div>
+
+      <div class="flex gap-2">
+        <img src="/assets/img/pin.svg" alt="pin">
+        <input
+          type="text"
+          class="bg-background-primary border border-accent p-2 rounded-md"
+          placeholder="Location you want to "
+        />
+      </div>
     </div>
   </body>
 </html>
