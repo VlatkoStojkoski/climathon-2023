@@ -4,18 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        accent: '#59b73a',
+        accent: '#FF0000',
         background: {
-          primary: '#101618',
-          secondary: '#223324',
-          navbar: '#76797A',
+          primary: '#1E1E1E',
+          secondary: '#331F1F',
         },
         foreground: {
           primary: '#ffffff',
           secondary: '#e8e8e8',
-          navbar: '#DADBDB',
-          button: '#071302',
-          or: '#777D74',
+          card: '#BEBEBE',
         },
       },
     },

@@ -3,11 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Evoz| Routes</title>
+    <title>Vozikay| HostRide</title>
     <link href="/assets/styles.css" rel="stylesheet" />
   </head>
 
   <body>
+    <!-- Navbar -->
+    <div class="bg-background-primary p-4">
+      <div class="flex justify-between items-center">
+        <img src="/assets/img/logo.svg" alt="Logo" />
+        <div class="flex gap-4">
+          <img src="/assets/img/Icon-Set.svg" alt="Icon-Set" />
+          <img src="/assets/img/profile.svg" alt="Profile" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Map -->
     <iframe
       class="w-full min-h-screen"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94881.62122328726!2d21.34231744800242!3d41.99918823935229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415a58c9aa2a5%3A0xb2ed88c260872020!2sSkopje!5e0!3m2!1sen!2smk!4v1698966179551!5m2!1sen!2smk"
@@ -20,29 +32,56 @@
     ></iframe>
 
     <div
-      class="flex flex-col items-center gap-6 absolute top-0 left-0 w-full h-[35%] bg-background-primary rounded-b-2xl py-8"
+      class="flex flex-col items-center gap-5 absolute bottom-0 left-0 w-full h-[60%] bg-background-primary rounded-t-2xl py-8"
     >
+      <!-- Leaving -->
       <div class="flex gap-2">
         <img src="/assets/img/yourLocation.svg" alt="YourLocationPin" />
         <input
           type="text"
-          class="bg-background-primary border border-accent p-2 rounded-md text-base"
-          placeholder="Your Location"
+          class="bg-background-primary border border-foreground-primary py-2 px-7 rounded-md text-base"
+          placeholder="Leaving From..."
         />
       </div>
 
-      <div class="flex items-center gap-2">
-        <img src="/assets/img/dots.svg" alt="dots">
-      </div>
-
+      <!-- Going to -->
       <div class="flex gap-2">
-        <img src="/assets/img/pin.svg" alt="pin">
+        <img src="/assets/img/pin.svg" alt="pin" />
         <input
           type="text"
-          class="bg-background-primary border border-accent p-2 rounded-md"
-          placeholder="Location you want to "
+          class="bg-background-primary border border-foreground-primary py-2 px-7 rounded-md"
+          placeholder="Going to... "
         />
       </div>
-    </div>
+
+      <!-- Passengers -->
+      <div class="flex shrink-0 justify-center items-center gap-2">
+        <img src="/assets/img/person.svg" alt="person" />
+        <div
+          class="flex justify-center items-center w-48 h-10 border border-foreground-primary rounded-md py-4"
+        >
+          <p class="text-foreground-primary">1 Passengers</p>
+        </div>
+        <div class="flex gap-2">
+          <div class="flex items-center justify-center w-6 aspect-square rounded-full bg-foreground-primary">
+            <img src="/assets/img/++.svg" alt="+" />
+          </div>
+          <div class="flex items-center justify-center w-6 aspect-square rounded-full bg-foreground-primary">
+            <img src="/assets/img/-.svg" alt="-" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Repetitive -->
+
+      <!-- Date & Time -->
+      <div class="flex gap-2 ">
+        <img src="/assets/img/calendar-icon.svg" alt="">
+        <input type="text" class="w-24 p-2 border border-foreground-primary bg-background-primary rounded-md" placeholder="Date">
+        <img src="/assets/img/time.svg" alt="">
+        <input type="text" class="w-24 p-2 border border-foreground-primary bg-background-primary rounded-md" placeholder="Time">
+      </div>
+      
+      
   </body>
 </html>
