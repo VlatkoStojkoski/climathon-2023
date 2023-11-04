@@ -8,6 +8,7 @@ module.exports = {
         background: {
           primary: '#1E1E1E',
           secondary: '#331F1F',
+          cards: '#2E2E2E'
         },
         foreground: {
           primary: '#ffffff',
