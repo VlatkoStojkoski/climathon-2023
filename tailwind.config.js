@@ -13,6 +13,8 @@ module.exports = {
           primary: '#ffffff',
           secondary: '#e8e8e8',
           card: '#BEBEBE',
+          gradiant1: '#FF1313',
+          gradiant2: '#2C0E0E',
         },
       },
     },
